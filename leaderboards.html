@@ -80,21 +80,7 @@
                         </ul>
                     </li>
 					<li>
-                        <a href="#" class="waves-effect waves-dark"><i class="fa fa-trophy"></i> Open Rolling Championship<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="#">Standings</a>
-                            </li>
-                            <li>
-                                <a href="#">Races Schedule</a>
-                            </li>
-                        </ul>
-                    </li>
-					<li>
-						<a href="" class="waves-effect waves-dark"><i class="fa fa-star"></i> Hot Lap Leaderboards</a>
-                    </li>
-					<li>
-                        <a href="#" class="waves-effect waves-dark"><i class="fa fa-calendar-o"></i> Other Events<span class="fa arrow"></span></a>
+                        <a href="#" class="waves-effect waves-dark"><i class="fa fa-calendar-o"></i>  Events<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="#">Races Schedule</a>
@@ -105,10 +91,16 @@
                         </ul>
                     </li>
 					<li>
-						<a href="" class="waves-effect waves-dark"><i class="fa fa-search"></i> Session Browser</a>
+                        <a href="" class="waves-effect waves-dark"><i class="fa fa-clock-o"></i> Hot Lap League</a>
+                    </li>
+                    <li>
+                        <a href="" class="waves-effect waves-dark"><i class="fa fa-trophy"></i> Championship Standings</a>
                     </li>
 					<li>
-						<a href="https://discord.gg/bQNHXCU" class="waves-effect waves-dark"><i class="fa fa-comment"></i> Discord</a>
+						<a href="" class="waves-effect waves-dark"><i class="fa fa-star"></i> Leaderboards</a>
+                    </li>
+					<li>
+						<a href="" class="waves-effect waves-dark"><i class="fa fa-book"></i> Help</a>
                     </li>
                     
                 </ul>
@@ -120,90 +112,87 @@
 
 		<div id="page-wrapper">
 			<div class="header"> 
-				<h1 class="page-header">
-					Home 
-				</h1> 
+				<h2 class="page-header">
+					Leaderboards: 
+				</h2> 
 									
 			</div>
 			
             <div id="page-inner">
-								
-				<div class="row">
-					<div class="col-xs-10 col-sm-10 col-md-10">
+			
+			<div id="page-inner">
+                <div class="row">
+                    <div class="col-xs-10 col-sm-10 col-md-9">
 						<div class="card">
-							
-							<div class="card red">
-								<div class="card-content white-text">
-									<span class="card-title">About ACC Racing Club</span>
-								</div>
-							</div>
-							
-							<div class="card-content">
-								
-                                <div class="card blue white-text" style="padding-top: 5px;padding-bottom: 15px;padding-left: 10px;">
-									<h3>Automated Championship Mode</h3>
-								</div>
-								<h4 style="padding-left: 15px;padding-top: 0px;">Accracing.club service aims to create an automated championship mode open for everyone in the Assetto Corsa Competizione simulator.</h4>
-								<h4 style="padding-left: 15px;padding-top: 0px;">Each round will last a week and you can enter it as many times as you want. Your score for each round will be an aggregate of all your finishes during the week.</h4>
-								
-                                <div class="card blue white-text" style="padding-top: 5px;padding-bottom: 15px;padding-left: 10px;">
-									<h3>Driver's Data Logging</h3>
-								</div>
-								<h4 style="padding-left: 15px;padding-top: 0px;">Our servers automatically log all laps and race results so it can be used to generate drivers` statistics and be reviewd on our website.</h4>
-								
-								<div class="card blue white-text" style="padding-top: 5px;padding-bottom: 15px;padding-left: 10px;">
-									<h3>Multiple servers</h3>
-								</div>
-								<h4 style="padding-left: 15px;padding-top: 0px;">We will run multiple servers that allow two ways of participation: open for all (AM league) and booking system (PRO league) that will allow scheduled events with drivers splits according to their skill (pace) level.</h4>
-																
-								<div class="card blue white-text" style="padding-top: 5px;padding-bottom: 15px;padding-left: 10px;">
-									<h3>Clean Racing Based On ACC Safety Rating</h3>
-								</div>
-								<h4 style="padding-left: 15px;padding-top: 0px;">All our servers implement a minimum safety rating to ensure that you are racing with other clean drivers.</h4>
-								
-								<div class="card blue white-text" style="padding-top: 5px;padding-bottom: 15px;padding-left: 10px;">
-									<h3>Laptime Leaderboards</h3>
-								</div>
-								<h4 style="padding-left: 15px;padding-top: 0px;">All logged laptimes are used to generate hot lap leaderboards and the hot lap league.</h4>
-								
-								<div class="card blue white-text" style="padding-top: 5px;padding-bottom: 15px;padding-left: 10px;">
-									<h3>Work In Progress</h3>
-								</div>
-								<h4 style="padding-left: 15px;padding-top: 0px;">Please note that we are in an early stage of developement and the features are subject to change.</h4>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-xs-10 col-sm-10 col-md-10">
-						<div class="card">
-							
+                            <div class="card-action">
 								<div class="card red">
 									<div class="card-content white-text">
-										<span class="card-title">How To Join</span>
+										<span class="card-title">Laptime leaderboards</span>
 									</div>
-								
+								</div>
 							</div>
-							<div class="card-content">
-							<div class="alert alert-info">
-							<strong>To race on ACCR servers, simply go to Multiplayer -> Server List and enter "accr" in the Filter By Name field. Use the ones with link to the website in server name :)</strong>
+                            <div class="card-content">
+                           <div id="MainContent_pnlError">
+	
+                                <div>
+                                    <h4><span id="MainContent_lblError">Please select a track from the selector</span></h4>
+                                </div>
+                            
 							</div>
-							<img src="https://i.imgur.com/36hm5aA.png" class="img-auto">
-							<br><br>
-							<div class="alert alert-info">
-							<strong>After each qualificartion and race please rerember to wait for switching to next nesstion - only then the result files are being generated by the server. Hopefully Kunos will fix it soon.</strong>
+                            
+                            <div class="alert alert-info">
+                                <h4>If you're logged in, your own laptimes will be highlighted in blue in the table below</h4>
+                            </div>
+
+
+                            <p>Laptimes from sessions are only recorded when the session completes. If all players leave the server before the session completes, laptimes will not be recorded.</p>
+                            <p>When the leaderboard shows all players, only each player's fastest time in each car is shown. When the leaderboard is filtered to show only the logged in user's laps, all of their times for each car are dhown.</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-10 col-sm-10 col-md-3">
+                        <div class="card">
+                            	<div class="card-action">
+								<div class="card blue">
+									<div class="card-content white-text">
+										<span class="card-title">Filters</span>
+									</div>
+								</div>
 							</div>
-								
+                            <div class="card-content">
+                            <div class="form-group">
+                                <span id="MainContent_lblTrackSelector">Track</span>
+                                <select name="ctl00$MainContent$ddlTrackSelector" id="MainContent_ddlTrackSelector" class="form-control">
+	<option value="1">Misano</option>
+	<option value="2">Paul Ricard</option>
+	<option value="3">Hungaroring</option>
+	<option value="4">Zolder</option>
+	<option value="5">Silverstone</option>
+	<option value="6">Brands Hatch</option>
+	<option value="7">Spa</option>
+	<option value="8">Barcelona</option>
+	<option value="9">Monza</option>
+
+</select>
+                            </div>
+                            <div class="form-group">
+                                <input id="MainContent_cbOnlyShowMine" type="checkbox" name="ctl00$MainContent$cbOnlyShowMine" />
+                                <label for="MainContent_cbOnlyShowMine" id="MainContent_lblOnlyMine">Only show my laptimes</label>
                                 
-							</div>
-						</div>
-					</div>					
-				</div>
-				
-							
-				
+                            </div>
+                             <input type="submit" name="ctl00$MainContent$btnChangeTrack" value="Submit" id="MainContent_btnChangeTrack" class="btn btn-primary" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-sm-10 col-md-10">
+
+                    </div>
+                </div>
+            </div>
+        </div>
 				
             </div>
 			
